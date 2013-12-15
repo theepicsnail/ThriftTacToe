@@ -1,5 +1,3 @@
 #!/bin/bash
 echo "Generating thrift libraries"
-thrift --gen py ttt.thrift
-
-
+thrift --gen py -o python ttt.thrift
